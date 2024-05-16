@@ -10,7 +10,7 @@ class PermissionSeeder extends Seeder
 {
     public function run(): void
     {
-        $keys =["users", "permissions", "settings", "logs"];
+        $keys =["users", "permissions", "settings","categories", "logs"];
         $role = Role::where("title", "Super Admin")->first();
         if($role){
             foreach($keys as $key){

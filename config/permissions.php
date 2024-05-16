@@ -7,20 +7,31 @@ return [
             "update",
             "delete"
         ],
+
         "roles" => [
             "view",
             "create",
             "update",
             "delete"
         ],
+
         "permissions" => [
             "view",
             "update",
             "delete"
         ],
+        
         "settings" => [
             "update"
         ],
+
+        "categories" => [
+            "view",
+            "create",
+            "update",
+            "delete"
+        ],
+
         "logs" => [
             "view"
         ]
